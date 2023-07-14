@@ -1,0 +1,54 @@
+.block{
+    padding: 2rem;
+    border: 2px solid hsla(0, 2%, 40%, 0.18);
+    background-color: aliceblue;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.block h2{
+    margin-bottom: 1rem;
+    color: burlywood;
+    text-transform: capitalize;
+}
+
+.block p{
+    margin-bottom: 1rem;
+}
+
+.button-block{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.head-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-block .like-icon{
+    color: #000000;
+    font-size: larger;
+}
+
+.red-heart{
+    color: red;
+    background-color: red;
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: skyblue;
+}
+
+.btn-danger{
+    background-color: #ff0000a1;
+}

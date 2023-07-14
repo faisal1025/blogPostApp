@@ -1,0 +1,23 @@
+.post-list{
+   list-style: none;
+   padding: 0;
+}
+
+h1{
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
+.add-post-block{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.add-post-block .btn{
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.add-post-block .btn-primary{
+    background-color: skyblue;
+}

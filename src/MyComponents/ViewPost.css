@@ -1,0 +1,19 @@
+
+.post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-head h3{
+    text-transform: capitalize;
+    color:rgb(9, 116, 247);
+}
+
+.post-head i{
+    border-radius: 50%;
+    border: 1px solid rgb(102 91 91 / 81%);
+    padding: 7px;
+    font-size: larger;
+    color: black;
+}
